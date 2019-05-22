@@ -7,5 +7,6 @@ thumbs.addEventListener('click', function(event) {
  event.preventDefault(); 
  let target = event.target.parentNode; 
  largeImg.src = target.href;
+ largeImg.alt = target.title;
 });
 
