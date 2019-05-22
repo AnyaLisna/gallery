@@ -6,6 +6,6 @@ const largeImg = document.getElementById('largeImg');
 thumbs.addEventListener('click', function(event) { 
  event.preventDefault(); 
  let target = event.target.parentNode; 
- largeImg.src = target.href;
+ largeImg.src = target.href; // you allso need add to largeImg `alt`
 });
 
